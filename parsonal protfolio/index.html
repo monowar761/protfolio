@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parsonal prtfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2><span>M</span>onowar</h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Servisec</a></li>
+                    <li><a href="#portfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"   ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="all">
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi,<br> I'm <span>Monowar</span><br>From Bangladesh</h1>
+                    <a href="photos/Monowar Hossain Mothpara 2 Pages CV 2024.pdf" download >Downlode CV</a>
+                </div>
+                <div class="header-image">
+                    <img src="photos/hero.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------about- section--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="photos/IMG_7254.JPG" alt="">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-titel">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum explicabo, suscipit perferendis animi aspernatur quos sit eum ratione quas, modi tempora fuga tempore facere? Totam illo perspiciatis doloremque molestiae corporis.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contant active-class" id="Skills">
+                        <ul>
+                            <li><span>UI/UX Design</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Design</span><br>Web App Designing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contant" id="Experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>UI/UX Training at creative it institute</li>
+                            <li><span>2024 - Current</span><br>Freelanching at Fiver.com</li>
+                            <li><span>2024</span><br>Internship at Web Design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contant" id="Education">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Diploma Enginearing From Jhenaidha poly. Ins.</li>
+                            <li><span>2020</span><br>(S.S,C) Passd from Bheramara Pailot High School</li>
+                            <li><span>2018</span><br>(J.S,C) Passd from Bheramara Pailot High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------survisec---------------------------------------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-titel">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ea. Laborum porro similique mollitia ex eligendi dicta facilis quod ducimus sunt nobis aliquid sed reprehenderit qui.</p>
+                    <a href="servises.html">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ea. Laborum porro similique mollitia ex eligendi dicta facilis quod ducimus sunt nobis aliquid sed reprehenderit qui.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-head-side-virus"></i>
+                    <h2>Grafices Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ea. Laborum porro similique mollitia ex eligendi dicta facilis quod ducimus sunt nobis aliquid sed reprehenderit qui.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+
+        </div>
+     </div>
+<!-- --------------------------------protfolio-------------------------------------------- -->
+
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titel">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="photos/Desktop - 1.png" alt="work">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>The app content you yo the <br> talented people aroud the world. <br> you see it from browser</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/Desktop - 2.png" alt="work">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>The app content you yo the <br> talented people aroud the world. <br>you see it from browser</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/Desktop - 3.png" alt="work">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>The app content you yo the <br>talented people aroud the <world class="br"></world> you see it from browser</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/Desktop - 4.png" alt="work">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>The app content you yo the <br>talented people aroud the world. <br> you see it from browser</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photos/Desktop - 5.png" alt="work">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>The app content you yo theb <br> talented people aroud the world. <br> you see it from browser</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+               
+            </div>
+            <a href="#" class="btn">See More</a>
+
+
+        </div>
+     </div>
+<!-- ---------------------------------------------contact-------------------------------------------------------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titel">My Work</h1>
+                    <p><i class="fa-solid fa-envelope"></i> mh2996011@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> 01408700142</p>
+                    <div class="social-icon">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div> 
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="number" name="Number" placeholder="Your Phone Number" required>
+                        <!-- <input type="number" name="Numbre" placeholder="Your Phone Number" required> -->
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                        <span id="msg"></span>
+                        <button type="submit" class="btn">Submite</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- ----------------------------------script---------------------------------------------- -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontants = document.getElementsByClassName("tab-contant")
+    function opentab(tabname) {
+        for(tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontant of tabcontants) {
+            tabcontant.classList.remove("active-class");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-class")
+    
+    }
+
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0"
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzmb4FGyYaKwKOJ5Z2V-ZV0pBqYGIpd5cC8LREX2V_9zPBvG-LEiwYI_CrrWTJl5eD3/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function() {
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
